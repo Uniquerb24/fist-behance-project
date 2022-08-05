@@ -1,0 +1,699 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* section 1 navbar */
+.container1{
+    border: 1px solid rgb(245, 241, 241);
+    margin-top:20px ;
+    padding: 5px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 3fr 0.5fr 0.5fr 0.5fr;
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    text-decoration-color: black;
+
+}
+#search input{
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;
+    padding-inline: 2rem;
+
+}
+#login button{
+    width: 90%;
+    height: 5vh;
+    margin-bottom:3px ;
+    border-radius: 15px;
+    border: none;
+}
+#sign button{
+    width: 90%;
+    height: 5vh;
+    margin-bottom:3px ;
+    border-radius: 15px;
+    background-color: rgb(55, 55, 254); 
+    border: none; 
+}
+.navbar p{
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 20px;
+}
+/* section 2 navbar */
+ .container{
+    background-color: black;
+    margin: 50px;
+    
+} 
+.nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.nav p{
+    color: white;
+    margin-top: 10px;
+}
+#logo{
+    margin-top: 10px;
+    color: white;
+padding-right: 30%;
+}
+#btns button{
+    background-color: cornflowerblue;
+     padding: 0.5rem; 
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+
+}
+#btn {
+    padding-inline: 20px;
+    border-color: white;
+    border-radius: 7px;
+    padding-right:50px ;
+    margin-top: 10px;
+     width:80px;
+    height: 5vh;  
+  
+
+}
+/* section 3 */
+.section3 {
+    display: grid;
+    grid-template-columns: 10fr 5fr ;
+    gap: 40px;
+color: white;
+padding-left:10% ;
+padding-top: 50px;
+}
+.card{
+    position: relative;
+    margin-right: 20%;
+
+}
+ .box{
+    background-color: rgb(240, 10, 129);
+    border-radius: 20px;
+height: 50vh;
+width: 100%;
+transform: rotate(-30deg);
+
+} 
+.card #img1 img{
+    position: absolute;
+    bottom: 2px;
+    width: 80%;
+    height: 45vh;
+    
+}
+.btnn{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 76%;
+}
+.explore button{
+    background-color: cornflowerblue;
+    width:80px;
+    height: 5vh;  
+    border: none;
+    border-radius: 7px;
+}
+.upload button{
+    
+    border-radius: 7px;
+     width:80px;
+    height: 5vh;  
+  
+}
+
+.parag{
+    margin-top: 20px;
+
+}
+.parag p{
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.impact p{
+    font-weight: bold;
+    font-size: 50px;
+}
+.autograph p{
+    font-size: 12px;
+    overflow-x: hidden;
+    width: 75%;
+}
+.nft{
+    font-weight:bold;
+    font-size: 50px;  
+}
+/* section 4 */
+.grid{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 40%;
+    padding: 110px
+}
+.grid p{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: white;
+}
+.grid button{
+    background-color: rgba(128, 128, 128, 0.205);
+    
+    color: green;
+    padding: 5px;
+    width: 80px;
+}
+.card1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 30px;
+    color: white;
+    padding: 110px;
+}
+.box1{
+    background-color: rgba(211, 211, 211, 0.084);
+    width: 120px;
+    height: 18vh;
+    margin-top: -180px;
+    text-align: center;
+    padding-top: 30px;
+}
+.box1 .img2{
+    background-image: url(./art/nft3.png);
+    width: 80px;
+    height: 10vh;
+    margin-top: -20px;
+    background-size:50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+}
+ .box1 #discription{
+ text-transform: capitalize;
+    color: white;
+    margin-top: 10%;
+}
+/* section 5 */
+.box2{
+    display: grid;
+    grid-template-columns: 8fr -0fr 1fr ;
+    gap: 30px;
+    color: white;
+    padding: 110px;
+    margin-top: -180px;
+    
+}
+.angles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 100%;
+    margin-left: 40px;
+}
+.less button{
+    background-color: rgba(128, 128, 128, 0.138);
+   padding: 7px;
+   color: rgba(255, 255, 255, 0.371);
+}
+.greater button{
+    background-color: rgba(128, 128, 128, 0.404);
+    padding: 7px; 
+    color: white;
+}
+.box2 p{
+    font-weight: bold;
+    font-size: 35px;
+}
+/* section 5a */
+.card2{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:-50%;
+    padding-left: 100px;
+    margin-right: 50px;
+    overflow-x: hidden;
+
+}
+.box3{
+   border-radius: 10px;
+    border: 1px solid rgba(229, 83, 83, 0.278);
+    background-color: black;
+    height: 60vh;
+    width: 95%;
+    margin-bottom: 80px;
+}
+.box3 #img3{
+    background-image: url(./art/nft4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+.box3 #img3a{
+    background-image: url(./art/nft1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+.box3 #img3b{
+    background-image: url(./art/nft2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+.box3 #img3c{
+    background-image: url(./art/nft3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+
+
+.stock{
+  margin: 10px;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    gap: 10px;
+    color: white;
+}
+.stock p{
+    font-weight: bold;
+} 
+.heart button{
+    border-radius: 15px;
+     margin-top: 10px; 
+     width: 65px;
+     height: 5vh;
+     margin-left: 70%;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.415);   
+}
+.heart button i{
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+#box4{
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.609);
+    width: 90%;
+    height: 8vh;
+   border-radius: 10px;
+   margin-top: 60%;
+}
+#box4 .name{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+#diamond{
+    color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 3fr 1fr ;
+    gap: 10px;
+    margin: 8px;
+    font-size: 12px;
+}
+.box5{
+    position: relative;
+    height: 10vh;
+    width: 90%;
+    margin: 5px;
+    
+}
+.img4{
+    background-image: url(./art/nft7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 50px;
+    background-position: center;
+    position: absolute;
+    border-radius: 40px;
+}
+.img4 i{
+    color: green;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.bid{
+    display: grid;
+    grid-template-columns: 0.7fr 0.5fr;
+    gap: 10px;
+    color: white;
+    margin-left: 55px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+.fancy{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
+    color: white;
+    margin-left: 57px;
+    margin-top: 8px;
+    font-weight: lighter;
+    
+}
+.place button{
+    text-transform: capitalize;
+    background-color: cornflowerblue;
+    width:70%;
+    height: 5vh;  
+    border: none;
+    margin-left:38px ;
+}
+/* section 6 */
+.box6{
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    gap: 10px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.box6 span{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+   
+}
+ .box6 p{
+    text-transform: capitalize;
+  border: 1px solid rgba(229, 83, 83, 0.278);
+  width: 80px;
+  height: 5vh;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: gray;
+  font-size: 10px;
+}
+/* section 6a */
+.card3{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:-50%;
+    padding-left: 100px;
+    margin-right: 50px;
+    overflow-x: hidden;
+    margin-top: 70px;
+}
+.box7{
+    border-radius: 10px;
+     border: 1px solid rgba(229, 83, 83, 0.278);
+     background-color: black;
+     height: 60vh;
+     width: 95%;
+     margin-bottom: 80px;
+ }
+ .box7 #img5{
+    background-image: url(./art/nft5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+ .box7 #img5a{
+    background-image: url(./art/nft8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+ .box7 #img5b{
+    background-image: url(./art/nft3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+ .box7 #img5c{
+    background-image: url(./art/nft1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 94%;
+    height: 40vh;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+.heart1 button{
+    border-radius: 15px;
+     margin-top: 10px; 
+     width: 65px;
+     height: 5vh;
+     margin-left: 70%;
+     border: none; 
+     background-color: rgba(128, 128, 128, 0.415);
+    }
+.heart1 button i{
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+.stock1{
+    margin: 10px;
+      display: grid;
+      grid-template-columns: 8fr 1fr;
+      gap: 10px;
+      color: white;
+  }
+.stock1 p{
+      font-weight: bold;
+  } 
+.box5a{
+    position: relative;
+    height: 10vh;
+    width: 90%;
+    margin: 5px;
+    
+}
+.img4a{
+    background-image: url(./art/nft7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 50px;
+    background-position: center;
+    position: absolute;
+    border-radius: 40px;
+}
+.img4a i{
+    color: green;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.bid1{
+    display: grid;
+    grid-template-columns: 0.7fr 0.5fr;
+    gap: 10px;
+    color: white;
+    margin-left: 55px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+.fancy1{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
+    color: white;
+    margin-left: 57px;
+    margin-top: 8px;
+    font-weight: lighter;
+    
+}
+.place1 button{
+    text-transform: capitalize;
+    background-color: cornflowerblue;
+    width:70%;
+    height: 5vh;  
+    border: none;
+    margin-left:38px ;
+}
+
+/*section 7 */
+.easy p{
+    text-transform: capitalize;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 85px;
+    margin-top: 100px;
+}
+.card4{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:5px;
+    padding-right: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.box8{
+    width: 95%;
+    height: 30vh;
+    border: 1px solid rgba(122, 82, 8, 0.59);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.038);
+    overflow-y: hidden;
+}
+#box8i{
+    width:55px;
+    height: 10vh;
+    background-color: rgba(128, 128, 128, 0.263);
+    margin: 20px;
+    border-radius: 5px;
+}
+#box8i i{
+    color: white;
+    padding: 20px;
+}
+.wallet1{
+    color: white;
+    font-size: 20px;
+text-transform: capitalize;
+padding: 20px;
+margin-top: -30px;
+}
+.parag1{
+    color: white;
+    font-size: 11px;
+    margin-bottom: 20px;
+    margin-left:20px ;
+}
+/* section 8 */
+.top p{
+    text-transform: capitalize;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 85px;
+    margin-top: 100px;
+}
+.box9{
+    width: 20%;
+    height: 15vh;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 98, 0, 0.774);
+    background-color: rgba(0, 0, 128, 0.14);
+    margin-left: 85px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.img6{
+    background-image: url(./art/nft7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 50px;
+    background-position: center;
+    position: absolute;
+    border-radius: 30px;
+    margin: 25px;
+}
+.img6 i{
+    color: green;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.crypto{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.amount{
+    color: white;
+    font-size: 14px;
+    padding-left: 35px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.box9i{
+    width: 20%;
+    height: 15vh;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 128, 0.14);
+    margin-left: 85px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.img6i{
+    background-image: url(./art/nft1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8vh;
+    width: 50px;
+    background-position: center;
+    position: absolute;
+    border-radius: 30px;
+    margin: 25px;
+}
+.img6i i{
+    color: green;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.card5{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap:-50%;
+    padding-left: 100px;
+    margin-right: 50px;
+    overflow-x: hidden;
+
+}
+
